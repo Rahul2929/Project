@@ -10,7 +10,7 @@ $obj->sum();
 print $obj->{result};
 print "\n";
 
-$obj->sub();
+$obj->subtract();
 print $obj->{result};
 print "\n";
 
