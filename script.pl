@@ -5,19 +5,19 @@ use strict;
 use Data::Dumper;
 use Maths;
 
-my $obj = new Maths(20,60);
+my $obj = new Maths(60,20);
 $obj->sum();
-print $obj->{result};
+print "The sum is: $obj->{result}";
 print "\n";
 
 $obj->subtract();
-print $obj->{result};
+print "The subtraction is: $obj->{result}";
 print "\n";
 
 $obj->div();
-print $obj->{result};
+print "The divison is: $obj->{result}";
 print "\n";
 
 $obj->multiplication();
-print $obj->{result};
+print "The multiplication is: $obj->{result}";
 print "\n";

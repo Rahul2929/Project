@@ -1,11 +1,10 @@
-package Math;
+package Maths;
 
 sub new {
   my $class = shift;
-  
   my $self = {
-          _input1 => shift;
-          _input2 => shift;
+          _input1 => shift,
+          _input2 => shift,
           };
  bless $self,$class;
  return $self;
